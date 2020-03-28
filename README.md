@@ -14,11 +14,11 @@ First the user must use the following command to install dependencies required:
 ```sh
 npm install
 ```
-Next the user can run 
+Next the user can load some starter data by running: 
 ```sh
 npm run seed
 ```
-which will load some starter data for the application. The application is then invoked with the following command:
+The application is then invoked with the following command:
 ```sh
 node server.js
 ```
@@ -41,7 +41,8 @@ This project is created with:
 ## Screenshot 
 ![app home screenshot](public/assets/img/workout-screenshot.png)
 ![stats screenshot](public/assets/img/stats-screenshot.png)
-Link to deployed heroku app: 
+
+Link to deployed heroku app: https://stark-river-87913.herokuapp.com/
 
 
 # Credits
