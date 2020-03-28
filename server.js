@@ -26,6 +26,8 @@ mongoose.connect(process.env.MONGODB_URI || `mongodb://localhost/workout`, {
   useFindAndModify: false
 });
 
+mongoose.connect(MONGODB_URI);
+
 app.listen(PORT, () => {
   console.log(`App running on http://localhost:${PORT}`);
 });
