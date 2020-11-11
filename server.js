@@ -19,7 +19,7 @@ app.use(express.static(`public`));
 apiRoutes(app);
 htmlRoutes(app);
 
-let MONGODB_URI = process.env.MONGODB_URI || `mongodb://localhost/workout`;
+let MONGODB_URI = process.env.MONGODB_CONNECTION || `mongodb://localhost/workout`;
 
 mongoose.connect(MONGODB_URI);
 
